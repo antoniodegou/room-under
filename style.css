@@ -1,0 +1,43 @@
+ 
+  body {
+    font-family: 'adobe-garamond-display', serif;
+    background-color: #ce1725;
+}
+
+/* Specific styles for headings using Adobe Garamond Display */
+h1, h2, h3 {
+    font-family: 'adobe-garamond-display', serif;
+    font-weight: normal;
+    margin: 0.5em 0;
+    font-family: garamond-premier-pro-display, serif;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+color: #0e0c51;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* font-family:'EB Garamond Variable',  serif; */
+    background-color: #f1ece8;
+    font-weight: 300;
+}
+
+.container {
+    text-align: center;
+}
+
+.container img {
+    width: 50%;
+    max-width: 300px;
+}
+
+.container p {
+    font-size: 20px;
+    color: #333;
+    color: #0e0c51;
+}
