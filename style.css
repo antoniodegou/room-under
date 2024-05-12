@@ -25,6 +25,7 @@ body {
     /* font-family:'EB Garamond Variable',  serif; */
     background-color: #f1ece8;
     font-weight: 300;
+   
 }
 
 .container {
@@ -40,4 +41,11 @@ body {
     font-size: 20px;
     color: #333;
     color: #0e0c51;
+    margin-top: 1rem;
+}
+
+.hey {
+    position: relative;
+    margin: auto;
+    width: 30%;
 }
