@@ -1,4 +1,21 @@
- 
+@font-face {
+    font-family: 'Satoshi-Regular';
+    src: url('../fonts/Satoshi-Regular.woff2') format('woff2'),
+         url('../fonts/Satoshi-Regular.woff') format('woff'),
+         url('../fonts/Satoshi-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Satoshi-Variable';
+    src: url('../fonts/Satoshi-Variable.woff2') format('woff2'),
+         url('../fonts/Satoshi-Variable.woff') format('woff'),
+         url('../fonts/Satoshi-Variable.ttf') format('truetype');
+    font-weight: 300 900;
+    font-display: swap;
+    font-style: normal;
+  }
   body {
     font-family: 'adobe-garamond-display', serif;
     background-color: #ce1725;
@@ -23,9 +40,15 @@ body {
     height: 100vh;
     margin: 0;
     /* font-family:'EB Garamond Variable',  serif; */
-    background-color: #f1ece8;
-    font-weight: 300;
+    background-color: #faf4f0;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Satoshi-Variable", sans-serif;
    
+}
+
+.thecol{
+    background-color: #f1ece8;
 }
 
 .container {
@@ -36,7 +59,9 @@ body {
     width: 50%;
     max-width: 300px;
 }
-
+.container   {
+    height: 100vh;
+}
 .container p {
     font-size: 20px;
     color: #333;
@@ -44,8 +69,25 @@ body {
     margin-top: 1rem;
 }
 
-.hey {
+/* .hey {
     position: relative;
     margin: auto;
     width: 30%;
+} */
+ 
+
+.btn-custom {
+    background-color: #ce2027;
+    border-color: #ce2027;
+    color: white;
+    border-radius: 0;
+}
+.btn-custom:hover {
+    background-color: #a81b21;
+    border-color: #a81b21;
+}
+
+.form-control{
+    border-radius: 0;
+
 }
