@@ -91,3 +91,7 @@ body {
     border-radius: 0;
 
 }
+
+#mc_embed_signup form {
+    margin: unset!important;
+}
